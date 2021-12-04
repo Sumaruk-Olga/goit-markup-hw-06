@@ -439,15 +439,35 @@
         </div>
       </div>
     </footer>
-    <div class="modal-window is-hidden" data-modal>
+    <div class="modal-window" data-modal>
       <div class="modal">
         <button type="button" class="close-modal-window" data-modal-close>
-          <svg width="20" height="20">
+          <svg class="close-modal-window-icon" width="20" height="20">
             <use href="./images/symbol-defs.svg#icon-close-black"></use>
           </svg>
         </button>
+        <p class="modal-form-text">Оставьте свои данные, мы вам перезвоним</p>
+        <form action="#" class="modal-form">
+          <label class="modal-form-field"
+            ><input class="modal-form-input" type="text" name="user-name" />Имя</label
+          >
+          <label class="modal-form-field"
+            ><input class="modal-form-input" type="tel" name="user-tel" />Телефон</label
+          >
+          <label class="modal-form-field"
+            ><input class="modal-form-input" type="email" name="user-email" />Почта</label
+          >
+          <label class="modal-form-field"
+            >Комментарий
+            <textarea class="modal-form-message" name="user-message"></textarea>
+          </label>
+          <button class="modal-form-button" type="button">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
+
+<!--div class="modal-window is-hidden" data-modal>
+-->
