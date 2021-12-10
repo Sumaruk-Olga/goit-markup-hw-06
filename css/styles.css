@@ -558,6 +558,7 @@ img {
 .footer-text {
   color: var(--white-color);
   margin-bottom: 9px;
+  line-height: 1.71;
 }
 
 .footer {
