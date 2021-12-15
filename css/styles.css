@@ -75,8 +75,6 @@ img {
 .benefits-list,
 .all-works {
   flex-wrap: wrap;
-  /* margin-bottom: -30px;
-  margin-left: -30px; */
 }
 
 .benefits-list .list {
@@ -803,3 +801,4 @@ img {
   align-self: center;
   resize: none;
 }
+
