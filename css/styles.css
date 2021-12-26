@@ -790,6 +790,11 @@ img {
   margin-bottom: 30px;
 }
 
+.modal-form-container {
+  outline: 1px solid red;
+  position: relative;
+}
+
 .modal-form-field {
   display: block;
   font-size: 12px;
@@ -805,16 +810,28 @@ img {
   margin-bottom: 28px;
 }
 
-/* .modal-form-input:hover .modal-form-field,
-.modal-form-input:focus .modal-form-field {
-  color: var(--accent-color);
-} */
+.modal-form-icon {
+  fill: var(--title-color);
+}
+
+.modal-form-input:hover,
+.modal-form-input:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.modal-form-container:hover .modal-form-icon,
+.modal-form-container:focus .modal-form-icon {
+  fill: var(--accent-color);
+}
 
 .modal-form-message {
   width: 100%;
   height: 120px;
-}
-.modal-form-message {
   align-self: center;
   resize: none;
+  margin-bottom: 20px;
+}
+
+.policy {
+  margin-bottom: 30px;
 }
