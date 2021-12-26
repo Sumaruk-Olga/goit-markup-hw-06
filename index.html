@@ -440,8 +440,20 @@
         <div class="container footer-subscription">
           <p class="subscription">Подпишитесь на рассылку</p>
           <form>
-            <label> <input type="email" name="user-email" />E-mail</label>
-            <button type="submit">Подписаться</button>
+            <div class="subscript-us">
+              <label>
+                <input
+                  type="email"
+                  name="user-email"
+                  class="subscript-us-input"
+                  placeholder="E-mail"
+              /></label>
+              <button type="submit" class="subscription-button">
+                Подписаться<svg class="subscription-button-icon" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
       </div>
