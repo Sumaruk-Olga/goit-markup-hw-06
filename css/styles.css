@@ -901,10 +901,24 @@ img {
   font-size: 14px;
   line-height: 1.14;
 }
-
-.policy {
+.checkbox-container {
+  position: relative;
   margin-bottom: 30px;
-  text-align: center;
+  display: flex;
+}
+
+.checkbox {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin-right: 23px;
+}
+
+.checkbox-icon {
+  position: absolute;
+  align-items: baseline;
+  /* margin-right: 7px; */
 }
 
 .modal-form-button {

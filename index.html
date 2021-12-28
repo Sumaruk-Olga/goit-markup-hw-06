@@ -496,10 +496,16 @@
               placeholder="Введите текст"
             ></textarea>
           </label>
-          <label class="modal-form-field">
-            <input type="checkbox" name="policy" class="policy" />Соглашаюсь с рассылкой и принимаю
-            <a href="#">Условия договора</a></label
-          >
+          <div class="checkbox-container">
+            <label class="modal-form-field policy">
+              <svg class="checkbox-icon" width="16" height="15">
+                <use href="./images/symbol-defs.svg#icon-Vector"></use>
+              </svg>
+              <input type="checkbox" name="policy" class="checkbox" />Соглашаюсь с рассылкой и
+              принимаю <a href="#">Условия договора</a>
+            </label>
+          </div>
+
           <button class="modal-form-button" type="submit">Отправить</button>
         </form>
       </div>
