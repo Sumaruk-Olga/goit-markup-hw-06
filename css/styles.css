@@ -161,6 +161,7 @@ img {
 .auth:focus,
 .auth:hover {
   color: var(--accent-color);
+  outline: 1px solid var(--accent-color);
 }
 
 .auth-nav:hover .auth-nav-letter,
@@ -349,11 +350,13 @@ img {
 .social-link:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
+  outline: 1px solid var(--accent-color);
 }
 
 .main-button:focus,
 .main-button:hover {
   background-color: var(--main-button-focus-color);
+  outline: 1px solid var(--accent-color);
 }
 
 .button:focus,
@@ -447,6 +450,7 @@ img {
 .connect-us-social-link:hover,
 .connect-us-social-link:focus {
   background-color: var(--accent-color);
+  outline: 1px solid var(--accent-color);
 }
 
 .social-link:hover .social-link-icon,
@@ -503,6 +507,7 @@ img {
 .card:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
+  outline: 1px solid var(--accent-color);
 }
 
 .card-link {
@@ -538,6 +543,7 @@ img {
 .client-link:hover,
 .client-link:focus {
   border: 1px solid var(--accent-color);
+  outline: 1px solid var(--accent-color);
 }
 
 .client-link:hover .client-list-icon,
@@ -635,6 +641,7 @@ img {
 .connect-us-list-item:hover,
 .connect-us-social-link:focus {
   background-color: var(--accent-color);
+  outline: 1px solid var(--accent-color);
 }
 
 .nav.current::after {
@@ -754,6 +761,7 @@ img {
 .close-modal-window:hover,
 .close-modal-window:focus {
   color: var(--accent-color);
+  outline: 1px solid var(--accent-color);
 }
 .close-modal-window-icon {
   fill: currentColor;
@@ -798,7 +806,7 @@ img {
 .subscript-us-input:hover,
 .subscript-us-input:focus {
   border: 2px solid var(--accent-color);
-  outline-color: var(--accent-color);
+  outline: 1px solid var(--accent-color);
 }
 
 .subscript-us-input:hover::placeholder,
@@ -888,7 +896,7 @@ img {
 
 .modal-form-input:hover,
 .modal-form-input:focus {
-  border: 1px solid var(--accent-color);
+  outline: 1px solid var(--accent-color);
 }
 
 .modal-form-container:hover .modal-form-icon,
@@ -905,6 +913,7 @@ img {
   margin-top: 4px;
   padding: 12px 16px;
   color: var(--text-area-color);
+  font-family: inherit;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -921,6 +930,7 @@ img {
 .modal-form-field:focus .modal-form-message {
   font-size: 14px;
   line-height: 1.14;
+  outline: 1px solid var(--accent-color);
 }
 
 .modal-form-field:hover .modal-form-message::placeholder,
@@ -961,6 +971,7 @@ img {
 .subscription-button:hover,
 .subscription-button:focus {
   background-color: var(--main-button-focus-color);
+  outline: 1px solid var(--accent-color);
 }
 
 .checkbox {
