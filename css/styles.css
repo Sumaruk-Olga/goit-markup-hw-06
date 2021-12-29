@@ -875,6 +875,7 @@ img {
 .modal-form-input:hover,
 .modal-form-input:focus {
   border: 1px solid var(--accent-color);
+  
 }
 
 .modal-form-container:hover .modal-form-icon,
@@ -894,6 +895,7 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
+  
 }
 
 .modal-form-field:hover .modal-form-message,
@@ -907,20 +909,10 @@ img {
   display: flex;
 }
 
-.checkbox {
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  margin-right: 23px;
-}
 
-.checkbox-icon {
-  position: absolute;
-  align-items: baseline;
-  /* margin-right: 7px; */
+.policy-link {
+  color: var(--accent-color);
 }
-
 .modal-form-button {
   display: block;
   width: 200px;
@@ -944,3 +936,28 @@ img {
 .subscription-button:focus {
   background-color: var(--main-button-focus-color);
 }
+
+/* .checkbox {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin-right: 23px;
+}
+
+.checkbox-icon {
+  position: absolute;
+  display: inline-block;
+  align-items: baseline;
+  width: 16px;
+  height: 15px;
+  /* background-color: red; */
+  /* background-image: url(/images/symbol-defs.svg#icon-Vector); */
+}
+
+/* .checkbox:checked {
+  width: 16px;
+  height: 15px;
+  background-color: blue; */
+  /* background-image: url(../images/symbol-defs.svg#icon-Vector-checked); */
+} */
