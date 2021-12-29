@@ -787,18 +787,20 @@ img {
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 15px 16px;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscript-us-input::placeholder {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .subscript-us-input:hover,
 .subscript-us-input:focus {
-  border: 1px solid var(--accent-color);
+  border: 2px solid var(--accent-color);
+  outline-color: var(--accent-color);
 }
 
-.subscript-us-input:hover::placeholder {
+.subscript-us-input:hover::placeholder,
+.subscript-us-input:focus::placeholder {
   color: var(--accent-color);
 }
 
