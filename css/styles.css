@@ -870,7 +870,7 @@ img {
   color: var(--title-color);
   font-weight: 700;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 }
 
 .modal-form-container {
@@ -1045,3 +1045,6 @@ fill:var(--accent-color);
   opacity: 1;  
 }
 
+.checkbox:checked + .policy .checkbox-icon-no-checked{
+opacity: 0;
+}
