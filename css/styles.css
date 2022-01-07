@@ -980,6 +980,7 @@ img {
   outline: 1px solid var(--accent-color);
 }
 
+
 .checkbox {
   width: 1px;
   height: 1px;
@@ -988,24 +989,31 @@ img {
   margin-right: 23px;
 }
 
-.checkbox-icon {
-  position: absolute;
-  display: inline-block;
-  align-items: baseline;
+.checkbox-icon{
   width: 16px;
-  height: 15px;
-  background-color: red;
-  border: 2px solid black;
-  border-radius: 2px;
-  top: 0;
+  height: 15px; 
+  position: absolute;
   left: 0;
-  /* background-image: url(/images/symbol-defs.svg#icon-Vector); */
+  top: 0;
 }
 
-.checkbox:checked {
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  margin-right: 23px;
+
+.checkbox-icon-no-checked{
+  opacity: 1;
+}
+
+.checkbox-icon-checked{
+  opacity: 0;
+  background-color: var(--accent-color);
+}
+
+
+
+.policy:checked .checkbox-icon-no-checked{
+  opacity: 0;
+  
+}
+
+.policy:checked .checkbox-icon-checked{
+  opacity: 1;
 }
