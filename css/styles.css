@@ -990,30 +990,22 @@ img {
 }
 
 .checkbox-icon{
-  width: 16px;
-  height: 15px; 
   position: absolute;
   left: 0;
   top: 0;
 }
 
 
-.checkbox-icon-no-checked{
-  opacity: 1;
+
+.checkbox-icon-checked {
+  opacity: 0;
 }
 
-.checkbox-icon-checked{
-  opacity: 0;
+.checkbox:checked + .policy .checkbox-icon-checked{
+  width: 16px;
+  height: 15px;
   background-color: var(--accent-color);
+  border-radius: 2px;
+  opacity: 1;  
 }
 
-
-
-.policy:checked .checkbox-icon-no-checked{
-  opacity: 0;
-  
-}
-
-.policy:checked .checkbox-icon-checked{
-  opacity: 1;
-}

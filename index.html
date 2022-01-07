@@ -504,10 +504,10 @@
               placeholder="Введите текст"
             ></textarea>
           </label>
-          <div class="checkbox-container">
-            <label class="modal-form-field policy">
-              <input type="checkbox" name="policy" class="checkbox" />Соглашаюсь с рассылкой и
-              принимаю <a href="#" class="policy-link">Условия договора</a>
+          <div class="checkbox-container">            
+            <input id="policy" type="checkbox" name="policy" class="checkbox" />
+            <label for="policy" class="modal-form-field policy">Соглашаюсь с рассылкой и
+              принимаю <a href="#" class="policy-link">Условия договора</a>              
               <span class="checkbox-icon checkbox-icon-no-checked">
                 <svg  width="16" height="15">
                   <use href="./images/symbol-defs.svg#icon-Vector"
@@ -517,9 +517,7 @@
                 <svg  width="16" height="15">
                   <use href="./images/symbol-defs.svg#icon-icon-check"
                 </svg>
-              </span>
-
-              
+              </span>              
             </label>
           </div>
 
