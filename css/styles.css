@@ -987,6 +987,7 @@ img {
   overflow: hidden;
   clip: rect(0 0 0 0);
   margin-right: 23px;
+  opacity: 0;
 }
 
 .checkbox-icon{
